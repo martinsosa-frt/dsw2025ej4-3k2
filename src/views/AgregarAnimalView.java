@@ -248,11 +248,11 @@ public class AgregarAnimalView extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         MenuPrincipalView viewMenu = new MenuPrincipalView();
         viewMenu.setVisible(true);
-        //ControladorAgregarAnimalView.ocultar();
+        ControladorAgregarAnimalView.ocultar();
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jComboBox_especieActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox_especieActionPerformed
-       //ControladorAgregarAnimalView.seleccionarAnimal();
+       ControladorAgregarAnimalView.seleccionarAnimal();
     }//GEN-LAST:event_jComboBox_especieActionPerformed
 
     private void jComboBox_especieMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jComboBox_especieMouseClicked
@@ -260,7 +260,7 @@ public class AgregarAnimalView extends javax.swing.JFrame {
     }//GEN-LAST:event_jComboBox_especieMouseClicked
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-       //ControladorAgregarAnimalView.botonAgregarAnimal();
+       ControladorAgregarAnimalView.botonAgregarAnimal();
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jTextField_EdadKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField_EdadKeyTyped

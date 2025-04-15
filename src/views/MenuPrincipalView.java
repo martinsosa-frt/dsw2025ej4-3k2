@@ -15,6 +15,7 @@ public class MenuPrincipalView extends javax.swing.JFrame {
      */
     public MenuPrincipalView() {
         initComponents();
+        this.setLocationRelativeTo(null); // para centrar la ventana
     }
 
     /**
@@ -87,7 +88,7 @@ public class MenuPrincipalView extends javax.swing.JFrame {
 
     private void jButton2_agregarAnimalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2_agregarAnimalActionPerformed
         this.setVisible(false);
-        //ControladorAgregarAnimalView.mostrar();
+        ControladorAgregarAnimalView.mostrar();
     }//GEN-LAST:event_jButton2_agregarAnimalActionPerformed
 
     /**
